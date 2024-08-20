@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Qwitcher+Grypen:wght@400;700&display=swap');
+
+h1{
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+img {
+    width: 24px;
+    height: 24px;
+}
+
+.medalhas {
+    height: 10px;
+    width: 10px;
+}
+
+td {
+    text-align: center;
+}
+
+.pais{
+    text-align: left;
+    width: 200px;
+}
+
+td {
+    width: 30px;
+}
+
+td:nth-child(1) {
+    text-align: left;
+    width: 15px;
+}
+
+img:hover {
+    transform: scale(3);
+}
+
+table tr:hover {
+    background-color:deeppink;
+}
